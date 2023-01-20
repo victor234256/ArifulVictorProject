@@ -1,0 +1,65 @@
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+#header-img{
+    width: 400px;
+    height: auto;
+    padding-left: 3em;
+}
+#nav-bar{
+    float: right;
+    
+}
+nav li{
+    display: inline;
+    padding: 0px 40px;
+    
+}
+
+.service-img{
+    width: 60px!important;
+    
+}
+.service-img1{
+    float: left;
+    width: 15%;
+    margin-top: 20px;
+}
+.text1{
+    width: 85%;
+    float: left;
+}
+.container{
+    margin: auto 15%;
+}
+.col{
+    float: left;
+    display: inline;
+}
+#video{
+    text-align: center;
+    
+}
+.card-container{
+
+    display: inline;
+    
+    clear: both;
+}
+.card{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 100px;
+    padding: 0px;
+}
+.heading{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
