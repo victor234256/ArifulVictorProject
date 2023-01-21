@@ -9,11 +9,16 @@
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
 
+ <div class="main-container">
+  <!-- THE HEADING BEGIN -->
+  <!-- THE LOGO -->
   <header class="header" id="header">
     <img id="header-img" id="header-img"
       src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
       alt="original trombones logo">
+      <!-- THE LOGO END -->
     <nav id="nav-bar">
       <li><a class="nav-link">Feature</a></li>
       <li><a class="nav-link">How it works</a></li>
@@ -21,6 +26,17 @@
 
     </nav>
   </header>
+  <!-- THE END OF HEADER -->
+  <!-- THE SERVICE FORM  -->
+  
+  <div class="form">
+    <h2 class="h2">Handcrafted, home-made masterpieces</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input name="email" id="email" type="email" placeholder="Enter your email address" required=""><br>
+      <input id="submit" type="submit" value="Get Started" class="btn">
+    </form>
+  </div>
+  <!-- THE SERVICE BEGIN -->
   <div class="container">
     <div class="row">
       <div class="col">
@@ -48,7 +64,7 @@
       </div>
       <div class="col3">
         <div class="service-img1">
-          <img src="https://th.bing.com/th/id/OIP.OYe6JP4uoyQeMjB4f-pWmAHaHa?pid=ImgDet&rs=1" alt="" class="service-img">
+          <img src="https://th.bing.com/th/id/OIP.OYe6JP4uoyQeMjB4f-pWmAHaHa?pid=ImgDet&rs=1" alt="" class="service-img img3">
         </div>
         <div class="text1">
           <h3>Quality Assurance</h3>
@@ -58,11 +74,16 @@
         
       </div>
     </div>
+    <!-- THE SERVICE END -->
+    <!-- THE YOUTUBE EMBEDDED VIDEO -->
     <div id="video">
       <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
       </iframe>
     </div>
+    <!-- END OF VIDEO -->
+    <!-- THE CARDS -->
     <div class="card-container">
+     <div class="column">
       <div class="card">
         <h5 class="heading">TENOR TROMBONE</h5>
         <h2>$600</h2>
@@ -72,27 +93,46 @@
         <p>Lorem ipsum.</p>
         <button>SELECT</button>
       </div>
-      <div class="card">
-        <h5 class="heading">BASS TROMBONE</h5>
-        <h2>$900</h2>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum.</p>
-        <button>SELECT</button>
+     </div>
+      <div class="column">
+        <div class="card">
+          <h5 class="heading">BASS TROMBONE</h5>
+          <h2>$900</h2>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <button>SELECT</button>
+        </div>
       </div>
-      <div class="card">
-        <h5 class="heading">VALVE TROMBONE</h5>
-        <h2>$1200</h2>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum.</p>
-        <button>SELECT</button>
+      <div class="column">
+        <div class="card">
+          <h5 class="heading">VALVE TROMBONE</h5>
+          <h2>$1200</h2>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <button>SELECT</button>
+        </div>
+
       </div>
-    </div>
-  
+    </div></div>
+    <div class="clear-float"></div>
+  <!-- END OF CARD -->
+  <!-- FOOTER -->
+  <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="clear-float"></div>
+    <span>Copyright 2016, Original Trombones</span>
+  </footer>
   </div>
+  
+ </div>
   <script src="js/index.js"></script>
 
 </body>

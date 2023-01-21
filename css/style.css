@@ -1,11 +1,16 @@
 body{
     background-color: #eee;
     font-family: 'Lato', sans-serif;
+    
+}
+.main-container{
+    padding-top: 40px;
 }
 #header-img{
     width: 400px;
     height: auto;
     padding-left: 3em;
+
 }
 #nav-bar{
     float: right;
@@ -17,6 +22,26 @@ nav li{
     
 }
 
+.form{
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;;
+}
+input[type='submit'] {
+    max-width: 175px;
+    width: 80%;
+    padding: 5px;
+    font-size: 28px;
+    margin: 20px 0;
+    background-color: #f1c40f;
+    border:0px;
+    font-weight: bold;
+} 
+input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}   
 .service-img{
     width: 60px!important;
     
@@ -37,6 +62,9 @@ nav li{
     float: left;
     display: inline;
 }
+.img3{
+transform: scaleX(-1);
+}
 #video{
     text-align: center;
     
@@ -47,13 +75,18 @@ nav li{
     
     clear: both;
 }
-.card{
+.column{
     float: left;
-    width: 32%;
+    width: 30%;
+    padding: 0px 10px;
+}
+.card{
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
     text-align: center;
     border: 1px solid black;
     margin-top: 100px;
-    padding: 0px;
+    padding: 10px;
+    background-color: #f1f1f1;
 }
 .heading{
     background-color: #ddd;
@@ -62,4 +95,34 @@ nav li{
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
+}
+button{
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+    padding: 15px;
+}
+.clear-float{
+    clear: both;
+}
+footer{
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 10px 10px 20px 10px;
+    height: 80px;
+    
+}
+footer li{
+    float: right;
+    padding: 0 10px;
+    text-decoration:none;
+    list-style-type: none;
+    
+}
+span{
+    
+    float: right;   
+    display: block;
+    padding: 12px 0;
 }
